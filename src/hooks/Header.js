@@ -1,9 +1,8 @@
-import './Menu.css';
-import Logo_sobre from '../assets/sobre.svg';
+import './Header.css';
 
-function Menu() {
+function Header() {
   return (
-    <header className="Menu">
+    <header className="Header">
       <nav>
           <div class="container">
               <a class="logo-web scrollTOP" href="#hero"><img class="img-logo-web cargado" src="https://static.santaconcha.com/assets/img/icon-logo-opt.png" alt="Logo ICON SANTACONCHA Digital Performance" /></a>
@@ -43,7 +42,7 @@ function Menu() {
   );
 }
 
-export default Menu;
+export default Header;
 
 
 

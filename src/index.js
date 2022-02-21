@@ -2,12 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import Menu from './hooks/Menu';
+import Header from './hooks/Header';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Menu />
+    <Header />
     <App />
   </React.StrictMode>,
   document.getElementById('root')
