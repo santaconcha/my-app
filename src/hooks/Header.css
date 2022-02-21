@@ -1,7 +1,3 @@
-.Header {
-  text-align: center;
-}
-
 nav {
 	position: fixed;
 	display: block;
@@ -218,6 +214,7 @@ header.nohome nav li a {
 	width: 100%;
 	position: fixed;
 	z-index: 1;
+	text-align: left;
 }
 #hero .background-hero {
 	height: 100vh;
