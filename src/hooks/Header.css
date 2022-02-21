@@ -1,10 +1,10 @@
-.Menu {
+.Header {
   text-align: center;
 }
 
 nav {
 	position: fixed;
-	display: inline-block;
+	display: block;
 	width: 100%;
 	padding: 20px 0;
 	z-index: 9;
@@ -13,7 +13,7 @@ nav {
 }
 .logo-web {
 	float: left;
-	display: inline-block;
+	display: block;
 	width: 80px;
 	height: 80px;
 }
@@ -88,7 +88,7 @@ header.nohome nav li a {
 		left: calc(50% - 30px);
 	}
 	.contacto-menu-mobile {
-		display: inline-block;
+		display: block;
 		float: right;
 		width: 40px;
 		height: 40px;
@@ -104,7 +104,7 @@ header.nohome nav li a {
 	.hamburger{
 		position: relative;
 		z-index: 10;
-		display: inline-block;
+		display: block;
 	  	background-color:transparent;
 		float: left;
 	    height: 40px;
@@ -222,7 +222,7 @@ header.nohome nav li a {
 #hero .background-hero {
 	height: 100vh;
 	width: 100%;
-	background-image: url(../img/hero_santaconcha.jpg);
+	background-image: url(../assets/hero_santaconcha.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -233,7 +233,7 @@ header.nohome nav li a {
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background-image: url(../img/img-flota-hero-4.png);
+	background-image: url(../assets/img-flota-hero-4.png);
 	background-size: cover;
 	background-position: center top;
 	background-repeat: no-repeat;
